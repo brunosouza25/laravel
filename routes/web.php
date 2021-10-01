@@ -25,6 +25,6 @@ Route::get('/', function () {
     return view('welcome', ['name' => $name, 'age' => $age, 'profession' => $profession, 'array' => $array, 'names' => $names]);
 });
 
-Route::get('/contact', function () {
-    return view('welcome');
+Route::get('/produtos', function () {
+    return view('produtos');
 });
