@@ -19,10 +19,3 @@ use App\Http\Controllers\ProductController;
 Route::get('/', [EventController::Class, 'index']);
 
 Route::get('/events/create', [EventController::Class, 'create']);
-
-Route::get('/produtos', [ProductController::Class, 'index']);
-
-Route::get('/produto_teste/{id?}', function ($id = null) {
-
-    return view('product', ['id' => $id]);
-});
