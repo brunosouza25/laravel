@@ -24,6 +24,7 @@ header {
 .btn-primary {
     background-color: #f2a340;
     border: 2px solid #c28008;
+    margin-top: 10px;
 }
 
 .btn-primary:hover {
@@ -31,6 +32,20 @@ header {
     border: #c28008;
 }
 
+/* event create page */
+#event-create-container {
+    padding: 30px;
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
+}
 /* navbar */
 
 #navbar img {
